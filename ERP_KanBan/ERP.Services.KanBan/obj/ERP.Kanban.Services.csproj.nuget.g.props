@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/dennis.yeh/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/dennis.yeh/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.14.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/Users/dennis.yeh/.nuget/packages/" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/HKVariants.txt" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/HKVariants.txt')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Dictionary/HKVariants.txt</TargetPath>
+      <DestinationSubDirectory>Dictionary/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Dictionary/HKVariants.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/HKVariantsRevPhrases.txt" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/HKVariantsRevPhrases.txt')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Dictionary/HKVariantsRevPhrases.txt</TargetPath>
+      <DestinationSubDirectory>Dictionary/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Dictionary/HKVariantsRevPhrases.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/JPShinjitaiCharacters.txt" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/JPShinjitaiCharacters.txt')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Dictionary/JPShinjitaiCharacters.txt</TargetPath>
+      <DestinationSubDirectory>Dictionary/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Dictionary/JPShinjitaiCharacters.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/JPShinjitaiPhrases.txt" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/JPShinjitaiPhrases.txt')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Dictionary/JPShinjitaiPhrases.txt</TargetPath>
+      <DestinationSubDirectory>Dictionary/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Dictionary/JPShinjitaiPhrases.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/JPVariants.txt" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/JPVariants.txt')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Dictionary/JPVariants.txt</TargetPath>
+      <DestinationSubDirectory>Dictionary/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Dictionary/JPVariants.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/STCharacters.txt" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/STCharacters.txt')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Dictionary/STCharacters.txt</TargetPath>
+      <DestinationSubDirectory>Dictionary/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Dictionary/STCharacters.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/STPhrases.txt" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/STPhrases.txt')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Dictionary/STPhrases.txt</TargetPath>
+      <DestinationSubDirectory>Dictionary/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Dictionary/STPhrases.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/TSCharacters.txt" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/TSCharacters.txt')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Dictionary/TSCharacters.txt</TargetPath>
+      <DestinationSubDirectory>Dictionary/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Dictionary/TSCharacters.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/TSPhrases.txt" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/TSPhrases.txt')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Dictionary/TSPhrases.txt</TargetPath>
+      <DestinationSubDirectory>Dictionary/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Dictionary/TSPhrases.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/TWPhrasesIT.txt" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/TWPhrasesIT.txt')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Dictionary/TWPhrasesIT.txt</TargetPath>
+      <DestinationSubDirectory>Dictionary/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Dictionary/TWPhrasesIT.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/TWPhrasesName.txt" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/TWPhrasesName.txt')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Dictionary/TWPhrasesName.txt</TargetPath>
+      <DestinationSubDirectory>Dictionary/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Dictionary/TWPhrasesName.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/TWPhrasesOther.txt" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/TWPhrasesOther.txt')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Dictionary/TWPhrasesOther.txt</TargetPath>
+      <DestinationSubDirectory>Dictionary/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Dictionary/TWPhrasesOther.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/TWVariants.txt" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/TWVariants.txt')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Dictionary/TWVariants.txt</TargetPath>
+      <DestinationSubDirectory>Dictionary/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Dictionary/TWVariants.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/TWVariantsRevPhrases.txt" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/Dictionary/TWVariantsRevPhrases.txt')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Dictionary/TWVariantsRevPhrases.txt</TargetPath>
+      <DestinationSubDirectory>Dictionary/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Dictionary/TWVariantsRevPhrases.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/char_state_tab.json" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/char_state_tab.json')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JiebaResource/char_state_tab.json</TargetPath>
+      <DestinationSubDirectory>JiebaResource/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JiebaResource/char_state_tab.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/cn_synonym.txt" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/cn_synonym.txt')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JiebaResource/cn_synonym.txt</TargetPath>
+      <DestinationSubDirectory>JiebaResource/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JiebaResource/cn_synonym.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/dict.txt" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/dict.txt')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JiebaResource/dict.txt</TargetPath>
+      <DestinationSubDirectory>JiebaResource/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JiebaResource/dict.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/idf.txt" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/idf.txt')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JiebaResource/idf.txt</TargetPath>
+      <DestinationSubDirectory>JiebaResource/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JiebaResource/idf.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/pos_prob_emit.json" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/pos_prob_emit.json')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JiebaResource/pos_prob_emit.json</TargetPath>
+      <DestinationSubDirectory>JiebaResource/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JiebaResource/pos_prob_emit.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/pos_prob_start.json" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/pos_prob_start.json')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JiebaResource/pos_prob_start.json</TargetPath>
+      <DestinationSubDirectory>JiebaResource/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JiebaResource/pos_prob_start.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/pos_prob_trans.json" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/pos_prob_trans.json')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JiebaResource/pos_prob_trans.json</TargetPath>
+      <DestinationSubDirectory>JiebaResource/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JiebaResource/pos_prob_trans.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/prob_emit.json" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/prob_emit.json')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JiebaResource/prob_emit.json</TargetPath>
+      <DestinationSubDirectory>JiebaResource/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JiebaResource/prob_emit.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/prob_trans.json" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/prob_trans.json')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JiebaResource/prob_trans.json</TargetPath>
+      <DestinationSubDirectory>JiebaResource/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JiebaResource/prob_trans.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/stopwords.txt" Condition="Exists('$(NuGetPackageRoot)openccnet/1.0.3/contentFiles/any/netstandard2.0/JiebaResource/stopwords.txt')">
+      <NuGetPackageId>OpenCCNET</NuGetPackageId>
+      <NuGetPackageVersion>1.0.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>JiebaResource/stopwords.txt</TargetPath>
+      <DestinationSubDirectory>JiebaResource/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>JiebaResource/stopwords.txt</Link>
+    </Content>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore/9.0.9/buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore/9.0.9/buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.analyzers/3.3.4/buildTransitive/Microsoft.CodeAnalysis.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.analyzers/3.3.4/buildTransitive/Microsoft.CodeAnalysis.Analyzers.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design/9.0.9/build/net8.0/Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design/9.0.9/build/net8.0/Microsoft.EntityFrameworkCore.Design.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/Users/dennis.yeh/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.4</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">/Users/dennis.yeh/.nuget/packages/microsoft.entityframeworkcore.tools/9.0.9</PkgMicrosoft_EntityFrameworkCore_Tools>
+  </PropertyGroup>
+</Project>

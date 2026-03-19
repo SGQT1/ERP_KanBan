@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+
+// Code scaffolded by EF Core assumes nullable reference types (NRTs) are not used or disabled.
+// If you have enabled NRTs for your project, then un-comment the following line:
+// #nullable disable
+
+namespace ERP.Models.Views
+{
+    public partial class StylePart
+    {
+        public decimal StyleId { get; set; }
+        public decimal LocaleId { get; set; }
+        public decimal MaterialId { get; set; }
+        public decimal UnitCodeId { get; set; }
+        public string MaterialName { get; set; }
+        public string UnitCode { get; set; }
+        public string StyleNo { get; set; }
+
+    }
+}

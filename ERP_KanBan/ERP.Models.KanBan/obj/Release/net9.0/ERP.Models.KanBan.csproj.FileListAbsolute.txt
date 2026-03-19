@@ -1,0 +1,11 @@
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Models.KanBan/bin/Release/net9.0/ERP.Models.KanBan.deps.json
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Models.KanBan/bin/Release/net9.0/ERP.Models.KanBan.dll
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Models.KanBan/bin/Release/net9.0/ERP.Models.KanBan.pdb
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Models.KanBan/obj/Release/net9.0/ERP.Models.KanBan.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Models.KanBan/obj/Release/net9.0/ERP.Models.KanBan.AssemblyInfoInputs.cache
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Models.KanBan/obj/Release/net9.0/ERP.Models.KanBan.AssemblyInfo.cs
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Models.KanBan/obj/Release/net9.0/ERP.Models.KanBan.csproj.CoreCompileInputs.cache
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Models.KanBan/obj/Release/net9.0/ERP.Models.KanBan.dll
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Models.KanBan/obj/Release/net9.0/refint/ERP.Models.KanBan.dll
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Models.KanBan/obj/Release/net9.0/ERP.Models.KanBan.pdb
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Models.KanBan/obj/Release/net9.0/ref/ERP.Models.KanBan.dll

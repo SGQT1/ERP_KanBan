@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = ERP.Services
+build_property.ProjectDir = /Users/dennis.yeh/Workspace/ERP_Net9/ERP.Services/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

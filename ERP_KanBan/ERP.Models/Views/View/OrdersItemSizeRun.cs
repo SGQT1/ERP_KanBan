@@ -1,0 +1,49 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace ERP.Models.Views.View
+{
+    public partial class OrdersItemSizeRun
+    {
+        public decimal LocaleId { get; set; }
+        public decimal? OrdersId { get; set; }
+        public string OrderNo { get; set; }
+        public decimal ArticleInnerSize { get; set; }
+        public decimal ArticleSize { get; set; }
+        public string ArticleSizeSuffix { get; set; }
+        public string DisplaySize { get; set; }
+        public decimal Qty { get; set; }
+        public decimal? KnifeSize { get; set; }
+        public string KnifeSizeSuffix { get; set; }
+        public double? KnifeInnerSize { get; set; }
+        public string KnifeDisplaySize { get; set; }
+        public decimal? OutsoleSize { get; set; }
+        public string OutsoleSizeSuffix { get; set; }
+        public double? OutsoleInnerSize { get; set; }
+        public string OutsoleDisplaySize { get; set; }
+        public decimal? LastSize { get; set; }
+        public string LastSizeSuffix { get; set; }
+        public double? LastInnerSize { get; set; }
+        public string LastDisplaySize { get; set; }
+        public decimal? ShellSize { get; set; }
+        public string ShellSizeSuffix { get; set; }
+        public double? ShellInnerSize { get; set; }
+        public string ShellDisplaySize { get; set; }
+        public decimal? Other1Size { get; set; }
+        public string Other1SizeSuffix { get; set; }
+        public double? Other1InnerSize { get; set; }
+        public string Other1Desc { get; set; }
+        public decimal? Other2Size { get; set; }
+        public string Other2SizeSuffix { get; set; }
+        public double? Other2InnerSize { get; set; }
+        public string Other2SizeDesc { get; set; }
+        public string SizeCountryNameTw { get; set; }
+        public string MappingSizeCountryNameTw { get; set; }
+        public string MappingShoeSize { get; set; }
+        public decimal MixedQty1 { get; set; }
+        public decimal MixedQty2 { get; set; }
+        public decimal MixedQty3 { get; set; }
+        public decimal MixedQty4 { get; set; }
+        public decimal MixedQty5 { get; set; }
+    }
+}

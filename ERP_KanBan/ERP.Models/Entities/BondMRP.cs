@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+
+// Code scaffolded by EF Core assumes nullable reference types (NRTs) are not used or disabled.
+// If you have enabled NRTs for your project, then un-comment the following line:
+// #nullable disable
+
+namespace ERP.Models.Entities
+{
+    public partial class BondMRP
+    {
+        public decimal Id { get; set; }
+        public decimal LocaleId { get; set; }
+        public Guid msrepl_tran_version { get; set; }
+        public int IsClose { get; set; }
+        public string OrderNo { get; set; }
+        public decimal BOMLocaleId { get; set; }
+        public string StyleNo { get; set; }
+        public string BondProductName { get; set; }
+        public string ModifyUserName { get; set; }
+        public DateTime LastUpdateTime { get; set; }
+        public DateTime? SalesDate { get; set; }
+        public string BondNo { get; set; }
+    }
+}

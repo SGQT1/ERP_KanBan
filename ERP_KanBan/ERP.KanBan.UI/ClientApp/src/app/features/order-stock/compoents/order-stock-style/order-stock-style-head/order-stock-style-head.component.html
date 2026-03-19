@@ -1,0 +1,24 @@
+<p-table [value]="_data" class="os-table">
+  <ng-template pTemplate="header">
+    <tr>
+      <th class="col-text">型體名稱</th>
+      <th class="col-number">訂單數</th>
+      <th class="col-number">訂單佔比</th>
+      <th class="col-number">訂單雙數</th>
+      <th class="col-number">雙數占比</th>
+      <th class="col-number">庫存雙數</th>
+      <th class="col-number">庫存占比</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-item>
+    <tr>
+      <td class="col-text">{{ item.modelName || '-' }}</td>
+      <td class="col-number">{{ item.orderNum || 0 }}</td>
+      <td class="col-number">{{ (item.orderRatio || 0) | number:'1.2-2' }}%</td>
+      <td class="col-number">{{ item.orderPair || 0 }}</td>
+      <td class="col-number">{{ (item.pairRatio || 0) | number:'1.2-2' }}%</td>
+      <td class="col-number">{{ item.stockPair || 0 }}</td>
+      <td class="col-number">{{ (item.stockRatio || 0) | number:'1.2-2' }}%</td>
+    </tr>
+  </ng-template>
+</p-table>

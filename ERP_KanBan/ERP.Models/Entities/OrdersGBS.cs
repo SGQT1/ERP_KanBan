@@ -1,0 +1,144 @@
+﻿using System;
+using System.Collections.Generic;
+
+// Code scaffolded by EF Core assumes nullable reference types (NRTs) are not used or disabled.
+// If you have enabled NRTs for your project, then un-comment the following line:
+// #nullable disable
+
+namespace ERP.Models.Entities
+{
+    public partial class OrdersGBS
+    {
+        public decimal Id { get; set; }
+        public decimal LocaleId { get; set; }
+        public string GBSPOReferenceNo { get; set; }
+        public string GBSCOReferenceNo { get; set; }
+        public string CustomerCode { get; set; }
+        public string CustomerName { get; set; }
+        public string CustomerCONo { get; set; }
+        public string OrderPlaceDate { get; set; }
+        public string StyleNo { get; set; }
+        public string StyleDescriptionBrandProductDivision { get; set; }
+        public string CustomerStyleNo { get; set; }
+        public string CustomerStyleDescription { get; set; }
+        public string Color { get; set; }
+        public string Quantity { get; set; }
+        public string SupplierCode { get; set; }
+        public string FactoryCode { get; set; }
+        public string CountryOfOrigin { get; set; }
+        public string ProductCharacter { get; set; }
+        public string KeySize { get; set; }
+        public string Handlingcharge { get; set; }
+        public string RSD { get; set; }
+        public string ABM { get; set; }
+        public string CSD { get; set; }
+        public string LCSD { get; set; }
+        public string CustomsCat { get; set; }
+        public string UltimateCustomerCode { get; set; }
+        public string UltimateCustomerName { get; set; }
+        public string UltimateCustomerCONo { get; set; }
+        public string DebtorCode { get; set; }
+        public string PaymentMethod { get; set; }
+        public string PaymentTerm { get; set; }
+        public string SourcingOrganization { get; set; }
+        public string Remarks { get; set; }
+        public string TotalValue { get; set; }
+        public string FirmOrderFlag { get; set; }
+        public string ShipmentMode { get; set; }
+        public string DirectShipmentFlag { get; set; }
+        public string DeliveryAddress { get; set; }
+        public string InvoiceAddress { get; set; }
+        public string CreationDate { get; set; }
+        public string OrderModifiedDate { get; set; }
+        public string HarmonizedSystemNo { get; set; }
+        public string Season { get; set; }
+        public string PortofOrigin { get; set; }
+        public string PortofDestination { get; set; }
+        public int Export { get; set; }
+        public string OTHERCHARGES { get; set; }
+        public string LINENAME { get; set; }
+        public string PRODUCTCONCEPT { get; set; }
+        public string PRODUCTREQUEST { get; set; }
+        public string CARRIER { get; set; }
+        public string COLORDESCRIPTION { get; set; }
+        public string COLORNO { get; set; }
+        public string COUNTRY { get; set; }
+        public string CUSTOMERDELIVERYSEQUENCENO { get; set; }
+        public string CUSTOMERHARMONISEDSYSTEMNO { get; set; }
+        public string DELIVERYSEQUENCENO { get; set; }
+        public string DELIVERYTERM { get; set; }
+        public string DISCOUNTUNIT { get; set; }
+        public string FACTORY { get; set; }
+        public string GBSCOREFERENCENUMBER { get; set; }
+        public string GBSDSRREFERENCENUMBER { get; set; }
+        public string GBSLASTMODIFICATIONDATE { get; set; }
+        public string GBSPOREFERENCENUMBER { get; set; }
+        public string HARMONISEDSYSTEMNO { get; set; }
+        public string PACKINGINSTR { get; set; }
+        public string PAYMENTTERMS { get; set; }
+        public string REMARKSINFO { get; set; }
+        public string SHIPPINGMARKS { get; set; }
+        public string SHIPPINGMODE { get; set; }
+        public string SPECIALINSTRUCTIONS { get; set; }
+        public string STYLEDESCRIPTION { get; set; }
+        public string SUPPLIERNAME { get; set; }
+        public string TASK { get; set; }
+        public string ULTIMATECUSTOMERDELIVERYSEQUENCENO { get; set; }
+        public string MSRPCURRENCYPRICE { get; set; }
+        public string MSRPMAINPRICEDESC { get; set; }
+        public string MSRPMAINPRICEVALUE { get; set; }
+        public string MSRPPRICEDESC { get; set; }
+        public string MSRPSIZECODE { get; set; }
+        public string POGBSLASTMODIFICATIONDATE { get; set; }
+        public string PRODUCTDIVISION { get; set; }
+        public string SIZETABLENUMBER { get; set; }
+        public string MASTERTRACKINGCODE { get; set; }
+        public string MASTERVESSELNAME { get; set; }
+        public string ULTIMATECUSTOMERCON { get; set; }
+        public string ORDERRELEASEDA { get; set; }
+        public string COLORDESC { get; set; }
+        public string CUSTOMERSTYLEDESCRIPTI { get; set; }
+        public string ORDERMODIFIEDDAT { get; set; }
+        public string DIRECTSHIPMENTFL { get; set; }
+        public string BRAND { get; set; }
+        public string PRODIV { get; set; }
+        public string DELIVERYSEQUENCEN { get; set; }
+        public string CUSTOMERDELIVERYS { get; set; }
+        public string ULTIMATECUSTOMERD { get; set; }
+        public string ORDERCREATIONDAT { get; set; }
+        public string CUR { get; set; }
+        public string HARMONIZEDSYSTEM { get; set; }
+        public string NOTHARMONIZEDSYS { get; set; }
+        public string BUSUNIT { get; set; }
+        public string STATUS { get; set; }
+        public string PERFCODE { get; set; }
+        public string CATEGORY { get; set; }
+        public string ACTIVITYGRP { get; set; }
+        public string OUTSOLECODE { get; set; }
+        public string AM { get; set; }
+        public string POD { get; set; }
+        public string ORDERCHAR { get; set; }
+        public string LEADTIME { get; set; }
+        public string PROMCONTRACT { get; set; }
+        public string SIZETABLENAME { get; set; }
+        public string SIZ { get; set; }
+        public string QTY { get; set; }
+        public string PRC { get; set; }
+        public string SUR { get; set; }
+        public string SKU { get; set; }
+        public string OCP { get; set; }
+        public string DELIVERYTERMCODE { get; set; }
+        public string PAYMENTMETHODCODE { get; set; }
+        public string PAYMENTTERMSCODE { get; set; }
+        public string PRODUCTDIVISIONCODE { get; set; }
+        public string SHIPPINGMODECODE { get; set; }
+        public string RISKQUANTITY { get; set; }
+        public string NO { get; set; }
+        public string LOTNO { get; set; }
+        public string GENDER { get; set; }
+        public string PONO { get; set; }
+        public string MATERIAL { get; set; }
+        public string PLANQTY { get; set; }
+        public string SHOENAME { get; set; }
+    }
+}

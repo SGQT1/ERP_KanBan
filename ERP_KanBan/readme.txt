@@ -1,0 +1,1 @@
+dotnet publish /Users/dennis.yeh/Workspace/ERP_KanBan/ERP.KanBan.API/ERP.KanBan.API.csproj -o /Users/dennis.yeh/BuildOutput/ERP_KanBan_BUILD/ERP.KanBan.API --configuration Release /p:EnvironmentName=Production

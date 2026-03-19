@@ -1,0 +1,11 @@
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Kanban.Models/bin/Debug/net9.0/ERP.Kanban.Models.deps.json
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Kanban.Models/bin/Debug/net9.0/ERP.Kanban.Models.dll
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Kanban.Models/bin/Debug/net9.0/ERP.Kanban.Models.pdb
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Kanban.Models/obj/Debug/net9.0/ERP.Kanban.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Kanban.Models/obj/Debug/net9.0/ERP.Kanban.Models.AssemblyInfoInputs.cache
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Kanban.Models/obj/Debug/net9.0/ERP.Kanban.Models.AssemblyInfo.cs
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Kanban.Models/obj/Debug/net9.0/ERP.Kanban.Models.csproj.CoreCompileInputs.cache
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Kanban.Models/obj/Debug/net9.0/ERP.Kanban.Models.dll
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Kanban.Models/obj/Debug/net9.0/refint/ERP.Kanban.Models.dll
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Kanban.Models/obj/Debug/net9.0/ERP.Kanban.Models.pdb
+/Users/dennis.yeh/Workspace/ERP_KanBan/ERP.Kanban.Models/obj/Debug/net9.0/ref/ERP.Kanban.Models.dll

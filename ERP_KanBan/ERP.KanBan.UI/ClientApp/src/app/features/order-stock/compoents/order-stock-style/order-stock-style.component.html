@@ -1,0 +1,13 @@
+<div class="os-dashboard">
+  <div class="os-title">{{ title }}</div>
+
+  <div class="os-panel">
+    <!-- 直接传递数组，避免嵌套解析问题 -->
+    <partial-order-stock-style-head [value]="data"></partial-order-stock-style-head>
+  </div>
+
+  <div class="os-panel os-panel-chart">
+    <!-- 直接传递数组，和表头保持一致 -->
+    <partial-order-stock-style-item [value]="data"></partial-order-stock-style-item>
+  </div>
+</div>

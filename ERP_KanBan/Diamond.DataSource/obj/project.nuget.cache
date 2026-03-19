@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "C99as2rgl+o=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\z\\Desktop\\work\\ERP_KanBan\\ERP_KanBan\\Diamond.DataSource\\Diamond.DataSource.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\z\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\9.0.9\\microsoft.aspnetcore.jsonpatch.9.0.9.nupkg.sha512",
+    "C:\\Users\\z\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\9.0.9\\microsoft.aspnetcore.mvc.newtonsoftjson.9.0.9.nupkg.sha512",
+    "C:\\Users\\z\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\z\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.9\\microsoft.entityframeworkcore.9.0.9.nupkg.sha512",
+    "C:\\Users\\z\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.9\\microsoft.entityframeworkcore.abstractions.9.0.9.nupkg.sha512",
+    "C:\\Users\\z\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.9\\microsoft.entityframeworkcore.analyzers.9.0.9.nupkg.sha512",
+    "C:\\Users\\z\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.9\\microsoft.extensions.caching.abstractions.9.0.9.nupkg.sha512",
+    "C:\\Users\\z\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.9\\microsoft.extensions.caching.memory.9.0.9.nupkg.sha512",
+    "C:\\Users\\z\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.9\\microsoft.extensions.dependencyinjection.9.0.9.nupkg.sha512",
+    "C:\\Users\\z\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.9\\microsoft.extensions.dependencyinjection.abstractions.9.0.9.nupkg.sha512",
+    "C:\\Users\\z\\.nuget\\packages\\microsoft.extensions.logging\\9.0.9\\microsoft.extensions.logging.9.0.9.nupkg.sha512",
+    "C:\\Users\\z\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.9\\microsoft.extensions.logging.abstractions.9.0.9.nupkg.sha512",
+    "C:\\Users\\z\\.nuget\\packages\\microsoft.extensions.options\\9.0.9\\microsoft.extensions.options.9.0.9.nupkg.sha512",
+    "C:\\Users\\z\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.9\\microsoft.extensions.primitives.9.0.9.nupkg.sha512",
+    "C:\\Users\\z\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\z\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\z\\.nuget\\packages\\system.linq.dynamic.core\\1.6.8\\system.linq.dynamic.core.1.6.8.nupkg.sha512"
+  ],
+  "logs": []
+}

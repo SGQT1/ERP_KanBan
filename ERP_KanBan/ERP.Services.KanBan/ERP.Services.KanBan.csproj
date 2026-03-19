@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\ERP.Data\ERP.Data.csproj" />
+    <ProjectReference Include="..\ERP.Models.KanBan\ERP.Models.KanBan.csproj" />
+    <ProjectReference Include="..\ERP.Services\ERP.Services.csproj" />
+    <ProjectReference Include="..\Diamond.DataSource\Diamond.DataSource.csproj" />
+  </ItemGroup>
+</Project>

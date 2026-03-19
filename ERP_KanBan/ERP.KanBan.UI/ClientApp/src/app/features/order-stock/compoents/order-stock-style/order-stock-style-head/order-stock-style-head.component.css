@@ -1,0 +1,63 @@
+/* partial-order-stock-style-head.component.css */
+:host {
+  display: block;
+}
+
+/* 整個表格字色與底色 */
+:host ::ng-deep .os-table {
+  background: transparent;
+  color: #cfe7ff;
+  font-size: 0.95rem;
+}
+
+/* 表頭：藍色發光條 */
+:host ::ng-deep .os-table .p-datatable-thead > tr > th {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 190, 255, 0.35) 0%,
+    rgba(0, 140, 220, 0.10) 100%
+  );
+  color: #8fd5ff;
+  text-shadow: 0 0 6px rgba(0, 190, 255, 0.9);
+  border: none;
+  border-bottom: 1px solid rgba(0, 200, 255, 0.55);
+  font-weight: 600;
+  padding: 0.7rem 0.6rem;
+  letter-spacing: 0.04em;
+}
+
+/* 列：淡淡分隔線，像 HUD 網格 */
+:host ::ng-deep .os-table .p-datatable-tbody > tr {
+  border-bottom: 1px solid rgba(0, 110, 170, 0.4);
+}
+
+/* ✅ 极致对比：浅的极浅，深的极深（仅改透明度） */
+:host ::ng-deep .os-table .p-datatable-tbody > tr:nth-child(odd) {
+  background: rgba(3, 16, 40, 0.25); /* 极浅：透明度0.25，更通透 */
+}
+:host ::ng-deep .os-table .p-datatable-tbody > tr:nth-child(even) {
+  background: rgba(6, 22, 55, 0.95); /* 极深：透明度0.95，更浓郁 */
+}
+
+/* Hover：藍光聚焦 */
+:host ::ng-deep .os-table .p-datatable-tbody > tr:hover {
+  background: rgba(0, 150, 255, 0.32);
+  box-shadow: inset 0 0 22px rgba(0, 180, 255, 0.5);
+}
+
+/* 去掉 cell 邊框線 */
+:host ::ng-deep .os-table .p-datatable-tbody > tr > td {
+  border: none;
+  padding: 0.55rem 0.6rem;
+}
+
+/* 文字／數字對齊 */
+.col-text {
+  text-align: left;
+}
+
+.col-number {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: #e5f3ff;
+}
